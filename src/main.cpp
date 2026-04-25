@@ -1,7 +1,14 @@
 #include <iostream>
+#include <SerieFocos.hpp>
+#include <Foco.hpp>
 
 int main(int argc, char const *argv[])
 {
-    std::cout << "Hola Mundo" << std::endl;
-    return EXIT_SUCCESS;
+   SerieFocos serie;
+   serie.EncenderFocos();
+   serie.MostrarFocos();
+   serie.ApagarFocos();
+   serie.MostrarFocos();
+
+   return 0;
 }
