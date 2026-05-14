@@ -20,7 +20,6 @@ public:
 for (auto &&f : focos){
     f.Encender();
     }
-
  }
 
  void ApagarFocos(){
